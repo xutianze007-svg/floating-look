@@ -1,1 +1,11 @@
-{"name":"a-floating-look","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"node server.mjs","start":"node server.mjs","check":"node --check app.js && node --check server.mjs"}}
+{
+  "name": "a-floating-look-v2",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check js/main.js && node --check js/scene.js && node --check js/data.js"
+  }
+}
